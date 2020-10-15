@@ -1,0 +1,67 @@
+/*Vai ser para geral*/
+
+/*
+    css
+
+        Cascating 
+            em cascata
+
+        style 
+            de estilo
+
+        sheet
+            folhas 
+
+
+    A importância da regra sempre virá da última adicionada, ou também de especificidade
+
+*/
+
+/*body { 
+
+    color: red;
+
+}*/
+
+* {  /*pega todos os elementos*/
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+
+    height: 100vh;
+
+    color: white;
+
+}
+
+#page-landing {
+
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);  /*vai mostrar essas cores em determinados ângulos e em determinada tonalidade*/
+
+    text-align: center;
+
+    min-height: 100vh;
+
+
+}
+
+body, input, button, textarea {
+
+
+    font-weight: 400;
+
+    font-size: 18px;
+
+    line-height: 1;
+
+    font-family: 'Nunito', sans-serif; /*se ele não achar a Nunito vai usar a sans-serif*/
+
+    font: 400 18px/1 'Nunito', sans-serif
+
+}
